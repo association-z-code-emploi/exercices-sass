@@ -1,0 +1,9 @@
+$theme-colors: (
+  primary: #3498db,
+  secondary: #2ecc71,
+);
+
+.btn {
+  background-color: map-get($theme-colors, primary);
+  color: map-get($theme-colors, secondary);
+}

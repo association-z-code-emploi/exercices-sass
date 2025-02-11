@@ -1,0 +1,23 @@
+$primary-color: #1a81bc;
+$secondary-color: #53ca5f;
+$tertiary-color: #e74c3c;
+$spacing: (
+  small: 8px,
+  medium: 16px,
+  large: 24px,
+);
+
+.header {
+  background-color: $primary-color;
+  padding: map-get($spacing, large);
+}
+
+.main {
+  background-color: $secondary-color;
+  padding: map-get($spacing, medium);
+}
+
+.footer {
+  background-color: $tertiary-color;
+  padding: map-get($spacing, small);
+}

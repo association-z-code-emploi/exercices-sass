@@ -1,0 +1,5 @@
+$margins: 10px 15px 20px 25px;
+
+.content {
+  margin-right: nth($margins, 2);
+}

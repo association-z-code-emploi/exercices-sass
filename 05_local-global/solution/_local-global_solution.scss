@@ -1,0 +1,8 @@
+.card {
+  $border-radius: 10px !global;
+  border-radius: $border-radius;
+}
+
+.container {
+  border-radius: $border-radius; // Fonctionne grâce à !global
+}
